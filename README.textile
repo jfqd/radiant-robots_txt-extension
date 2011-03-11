@@ -1,0 +1,21 @@
+h1. robots.txt
+
+This extension adds a "Robots Txt" page type to your "radiant":http://github.com/radiant/radiant pages.
+
+Tested with 0.9.1
+
+h2. Installation
+
+Starting from your radiant application root directory:
+
+git clone git://github.com/jfqd/radiant-robots_txt-extension.git vendor/extensions/robots_txt
+
+No rake tasks needed.
+
+h2. Configuration
+
+To load this extension as early as possible add this to your 'config/environment.rb' file:
+
+  config.extensions = [ :robots_txt, :all ]
+
+Copyright &copy; 2011 qutic.com
